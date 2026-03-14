@@ -57,4 +57,4 @@ if frontend_dist.exists():
 else:
     @app.get("/")
     def root():
-        return {"message": "Portfolio API is running", "docs": "/docs"}
+        return {"message": "Portfolio API is running.", "docs": "/docs"}
